@@ -1,0 +1,17 @@
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    font-size: xx-large;
+}
+
+.myclass{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#myID{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
