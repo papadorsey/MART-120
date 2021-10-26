@@ -1,0 +1,56 @@
+<html>
+    <title>Page 3</title>
+    <head>
+        <script>
+           function checkbox()
+           {
+               var firstName = document.getElementById("fName").value;
+               var lastName = document.getElementById("lName").value;
+               var email = document.getElementById("email").value;
+               if(firstName == "") 
+               
+               {
+                   window.alert("Enter a first name");
+                   document.getElementById("fName").style.backgroundColor = "red";
+                   document.getElementById("fName").focus();
+    
+               }
+               if(lastName == "")
+               {
+                window.alert("Enter a last name");
+                   document.getElementById("lName").style.backgroundColor = "red";
+                   document.getElementById("lName").focus();
+               }
+               if(email == "")
+               {
+                window.alert("Enter an email address");
+                   document.getElementById("email").style.backgroundColor = "red";
+                   document.getElementById("email").focus();
+               }
+           }
+        </script>
+    </head>
+    <body>
+        <style>
+            p {
+                font-weight: bolder; color: darkblue;
+            }
+        </style>
+        <h1>Contact Us Here</h1>
+        <p></p>
+        <form action="">
+            <p style="font-weight: bold;">First Name: <input type="text" id="fName"></p>
+            <p style="font-weight: bold;">Last Name: <input type="text" id="lName"></p>
+            <p style="font-weight: bold; color: blue;">Email Address: <input type="text" name="" id="email"></p>
+            <p style="font-family: cursive; color: crimson;">Sign your life away: <br>
+                <p>Yes <input type="checkbox" name="" id="checkyes"></p>
+                <p>Absolutely <input type="checkbox" name="" id="checkabs"></p>
+
+
+            <button id="btnSubmit" onclick='checkbox();' >Submit</button>
+        </form>
+        <a href="First Page.html">Go to the Home Page</a></p>
+        <p><a href="Second Page.html">Go to the Short Story</a></p>
+        
+    </body>
+</html>
